@@ -1,0 +1,1 @@
+This is a README file on my Project called Lagos Art Gallery built using HTML, CSS, and JavaScript by Wasiu Olanrewaju Akindoyin.

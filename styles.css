@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Carter+One&family=Cookie&family=Island+Moments&family=PT+Serif+Caption&family=Playfair+Display+SC:wght@400;700;900&family=Red+Hat+Display:wght@700;900&family=Roboto+Mono&display=swap');
+
+/* UNIVERSAL STYLING */
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* BODY STYLING */
+body{
+	font-family: 'Roboto Mono', monospace;
+	height: 100vh;
+	font-weight: bold;
+	text-transform: uppercase;
+
+}
+
+/* SLIDER CONTAINER STYLING */
+.slider-container{
+	position: relative;
+	overflow: hidden;
+	width: 100vw;
+	height: 100vh;
+}
+
+/* LEFT SLIDER STYLING */
+.left-slide{
+	height: 100%;
+	width: 35%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: transform .5s ease-in-out;
+}
+
+.left-slide > div{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	text-align: center;
+}
+
+.left-slide h1{
+	font-size: 35px;
+	margin-bottom: 10px;
+	margin-top: -620px;
+	text-decoration: underline;
+	letter-spacing: 1px;
+}
+
+.left-slide p{
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 20px;
+	font-family: cursive;
+}
+
+/* RIGHT SLIDER STYLING */
+.right-slide{
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 35%;
+	width: 75%;
+	transition: transform .5s ease-in-out;
+}
+
+.right-slide > div{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	width: 100%;
+}
+
+/* BUTTON STYLING */
+button{
+	background-color: white;
+	border: none;
+	color: darkgray;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 17px;
+}
+
+button:hover{
+	color: #222;
+}
+
+/* ACTION BUTTON STYLING */
+.slider-container .action-buttons button{
+	position: absolute;
+	left: 35%;
+	top: 50%;
+	z-index: 100;
+}
+
+.slider-container .action-buttons .down-button{
+	transform: translateX(-100%);
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.slider-container .action-buttons .up-button{
+	transform: translateY(-100%);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+/* MAIN FOOTER STYLING */
+#main-footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	margin-bottom: 10px;
+	font-family: cursive;
+}
