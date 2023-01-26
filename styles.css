@@ -48,7 +48,7 @@ body{
 .left-slide h1{
 	font-size: 35px;
 	margin-bottom: 10px;
-	margin-top: -620px;
+	margin-top: -600px;
 	text-decoration: underline;
 	letter-spacing: 1px;
 }
@@ -84,8 +84,8 @@ button{
 	border: none;
 	color: darkgray;
 	cursor: pointer;
-	font-size: 18px;
-	padding: 17px;
+	font-size: 12px;
+	padding: 14px;
 }
 
 button:hover{
