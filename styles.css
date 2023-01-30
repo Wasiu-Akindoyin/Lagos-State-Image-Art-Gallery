@@ -13,7 +13,6 @@ body{
 	height: 100vh;
 	font-weight: bold;
 	text-transform: uppercase;
-
 }
 
 /* SLIDER CONTAINER STYLING */
@@ -46,9 +45,9 @@ body{
 }
 
 .left-slide h1{
-	font-size: 35px;
+	font-size: 30px;
 	margin-bottom: 10px;
-	margin-top: -600px;
+	margin-top: -500px;
 	text-decoration: underline;
 	letter-spacing: 1px;
 }
@@ -57,7 +56,6 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 20px;
-	font-family: cursive;
 }
 
 /* RIGHT SLIDER STYLING */
@@ -121,5 +119,5 @@ button:hover{
 	text-align: center;
 	color: white;
 	margin-bottom: 10px;
-	font-family: cursive;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
