@@ -121,3 +121,19 @@ button:hover{
 	margin-bottom: 10px;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+@media screen and (max-width: 500px) {
+	.left-slide h1{
+		font-size: 18px;
+		letter-spacing: 0;
+		margin-top: -560px;
+	}
+	.left-slide p{
+		letter-spacing: 0;
+		font-size: 15px;
+	}
+	#main-footer{
+		font-size: 10px;
+		font-family: monospace;
+	}
+}
